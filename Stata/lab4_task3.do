@@ -54,7 +54,3 @@ cvlasso lrprice								///
 		c.lland#c.lland						///
 		c.larea#c.larea						///
 		), lglmnet nfolds(5) lopt seed(42)
-
-// MSE (in-sample, using the selected value of lambda):
-predict ehat, resid
-sum ehat, detail
